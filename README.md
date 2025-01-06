@@ -1,7 +1,26 @@
 ![SnowIcon](https://github.com/user-attachments/assets/a0ac0c77-30d8-4305-9e32-02ac1de9d430)
 
 # DashStack
-Website Point of Sales
+Website Point of Sales yang dimana menggunakan ReactJs dan Tailwind CSS di sisi Frontend dan Node.js dari sisi Backend
+
+# Dokumentasi
+- [Design UI/UX](https://www.figma.com/design/FAT7JelIKLYQdwNbEjtb1j/UI%2FUX-POS_MAGANG?node-id=0-1&p=f&t=IJQ0F2YyMPhMOqqE-0)
+- [Entity Realtional Diagram](https://dbdiagram.io/d/POS-67481699e9daa85acafae1f8)
+
+# Dependency
+- express
+- mysql2
+- sequelize 
+- jsonwebtoken
+- bcrypt
+- cookie-parser
+- cross origin resource sharing
+- nodemon
+- json-decode
+- express-session
+- connect-session-sequelize
+- react-router-dom
+- axios
 
 ## Halaman
 
