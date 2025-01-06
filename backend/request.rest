@@ -1,0 +1,145 @@
+# ------------------- AUTH ------------------
+### Login Admin
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "taliaaprianti46@gmail.com",
+    "password": "123"
+}
+
+### Login Kasir
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "kasir@gmail.com",
+    "password": "123"
+}
+
+### Me
+GET http://localhost:5000/me
+
+### Token
+GET http://localhost:5000/token
+
+### Logout
+DELETE http://localhost:5000/logout
+
+
+# ------------------- USER ------------------
+### Get All Users By Authorization
+GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEzLCJuYW1lIjoiVGFsaWEgQXByaWFudGkiLCJwaG9uZSI6IjA4Mzg0OTcyNzQ0OSIsInByb2ZpbEltZyI6InVwbG9hZHMvcHJvZmlsLmpwZWciLCJlbWFpbCI6InRhbGlhYXByaWFudGk0NkBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW4iLCJzdGF0dXMiOiJBY3RpdmUiLCJpYXQiOjE3MzU5NzM4MTAsImV4cCI6MTczNTk3MzgzMH0.Oswwlg3hIXZriLQ2iEEQ63rrRQ2OEpF7N1DgstGasoU
+
+### Get All Users
+GET http://localhost:5000/users
+
+### Create User
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "Manager Dashstack",
+    "phone": "083849727449",
+    "profilImg": "uploads/profil.jpeg",
+    "email": "manager@gmail.com",
+    "password": "123",
+    "role": "Manager",
+    "status": "Active"
+}
+
+### Update User
+PATCH http://localhost:5000/users/21
+Content-Type: application/json
+
+{
+    "name": "Manager Dashstack",
+    "phone": "083849727449",
+    "profilImg": "uploads/profil.jpeg",
+    "email": "manager@gmail.com",
+    "password": "123",
+    "role": "Manager",
+    "status": "Active"
+}
+
+### Delete User
+DELETE http://localhost:5000/users/19
+
+
+# ------------------- CUSTOMER ------------------
+### Get All Customers By Authorization
+GET http://localhost:5000/customers
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEzLCJuYW1lIjoiVGFsaWEgQXByaWFudGkiLCJwaG9uZSI6IjA4Mzg0OTcyNzQ0OSIsInByb2ZpbEltZyI6InVwbG9hZHMvcHJvZmlsLmpwZWciLCJlbWFpbCI6InRhbGlhYXByaWFudGk0NkBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW4iLCJzdGF0dXMiOiJBY3RpdmUiLCJpYXQiOjE3MzU5ODEyMzksImV4cCI6MTczNTk4MTI1OX0.Qyy_6VDvoNKARP3QIatZlXgVK6b2ut4RXScI_Rg11KM
+
+### Get All Customers
+GET http://localhost:5000/customers/18
+
+### Create Customer
+POST http://localhost:5000/customers
+Content-Type: application/json
+
+{
+    "name": "Ahmad Fikri",
+    "phone": "08123456789",
+    "email": "fikri@gmail.com",
+    "address": "Jl. Sudirman No.25",
+    "city": "Jakarta",
+    "country": "Indonesia"
+}
+
+### Update Customer
+PATCH http://localhost:5000/customers/4
+Content-Type: application/json
+
+{
+    "name": "Siti Nurhaliza",
+    "phone": "0876543210",
+    "email": "siti@gmail.com",
+    "address": "Jl. Braga No.5",
+    "city": "Bandung",
+    "country": "Indonesia"
+}
+
+### Delete Customer
+DELETE http://localhost:5000/customers/3
+
+
+# ------------------- SUPPLIER ------------------
+### Get All Suppliers By Authorization
+GET http://localhost:5000/suppliers
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEzLCJuYW1lIjoiVGFsaWEgQXByaWFudGkiLCJwaG9uZSI6IjA4Mzg0OTcyNzQ0OSIsInByb2ZpbEltZyI6InVwbG9hZHMvcHJvZmlsLmpwZWciLCJlbWFpbCI6InRhbGlhYXByaWFudGk0NkBnbWFpbC5jb20iLCJyb2xlIjoiQWRtaW4iLCJzdGF0dXMiOiJBY3RpdmUiLCJpYXQiOjE3MzU5NzQwMjMsImV4cCI6MTczNTk3NDA0M30.bkTiQ81YopdROIB1ISu3ifR98BuVOBjiEf0D01NIFR0
+
+### Get All Suppliers
+GET http://localhost:5000/suppliers/18
+
+### Create Supplier
+POST http://localhost:5000/suppliers
+Content-Type: application/json
+
+{
+    "name": "PT XYZ",
+    "phone": "0849382993",
+    "email": "xyz@gmail.com",
+    "address": "Jl. Braga No.5",
+    "city": "Bandung",
+    "country": "Indonesia"
+}
+
+### Update Supplier
+PATCH http://localhost:5000/suppliers/4
+Content-Type: application/json
+
+{
+    "name": "Siti Nurhaliza",
+    "phone": "0876543210",
+    "email": "siti@gmail.com",
+    "address": "Jl. Braga No.5",
+    "city": "Bandung",
+    "country": "Indonesia"
+}
+
+### Delete Supplier
+DELETE http://localhost:5000/suppliers/2
+
+
