@@ -46,6 +46,3 @@ npm install
 npm start
 ```
 
-### Credits
-Template ini diadaptasi dari [dasyui-admin-dashboard-template.git](https://github.com/robbins23/daisyui-admin-dashboard-template.git) yang dilisensikan di bawah MIT License.
-
