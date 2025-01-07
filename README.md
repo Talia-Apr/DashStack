@@ -42,6 +42,7 @@ nodemon index
 - Terminal 2
 ```bash
 cd frontend
+npm install
 npm start
 ```
 
