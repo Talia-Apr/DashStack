@@ -5,7 +5,7 @@ Website Point of Sales yang dimana menggunakan ReactJs dan Tailwind CSS di sisi 
 
 # Dokumentasi
 - [Design UI/UX](https://www.figma.com/design/FAT7JelIKLYQdwNbEjtb1j/UI%2FUX-POS_MAGANG?node-id=0-1&p=f&t=IJQ0F2YyMPhMOqqE-0)
-- [Entity Relational Diagram](https://dbdiagram.io/d/POS-67481699e9daa85acafae1f8)
+- [Conceptual Data Model](https://dbdiagram.io/d/POS-67481699e9daa85acafae1f8)
 
 # Dependency
 - express
