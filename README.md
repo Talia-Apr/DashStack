@@ -1,6 +1,6 @@
 ![SnowIcon](https://github.com/user-attachments/assets/a0ac0c77-30d8-4305-9e32-02ac1de9d430)
 
-# DashStack
+# DashStack - Website Point of Sales (POS)
 Website Point of Sales yang dimana menggunakan ReactJs dan Tailwind CSS di sisi Frontend dan Node.js dari sisi Backend
 
 # Dokumentasi
